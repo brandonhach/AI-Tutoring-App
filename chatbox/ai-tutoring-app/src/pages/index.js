@@ -1,27 +1,25 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import styles from "../pages/styles/Home.module.css";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import Nav from '../../components/nav';
+import Link from "next/link";
+import Image from "next/image";
+import Nav from "../../components/nav";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>AI Tutoring App by Brandon and Sean</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className={styles.main}>
-        
-        <Nav />
-        <h1 className={styles.title}>Home</h1>
-      </main>
-    </>
-  )
+	return (
+		<>
+			<Head>
+				<title>AI Tutoring App by Brandon and Sean</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+			<main className={styles.main}>
+				<Nav />
+				<h1 className={styles.title}>Home</h1>
+			</main>
+		</>
+	);
 }
