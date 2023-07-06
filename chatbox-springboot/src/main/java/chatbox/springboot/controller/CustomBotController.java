@@ -2,6 +2,7 @@ package chatbox.springboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,7 +13,9 @@ import chatbox.springboot.dto.ChatGPTResponse;
 
 /**
  * A controller that manages interaction with our custom ChatGPT bot.
+ * Accepts cross-origin request from localhost
  */
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/bot")
 public class CustomBotController {
