@@ -31,7 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
-<<<<<<< HEAD:chatbox-springboot/.gitignore
-=======
 .DS_Store
->>>>>>> 06e34e8e751354b10a873510f0166832ac7100bb:.gitignore
+
+### ENV ###
+.env
