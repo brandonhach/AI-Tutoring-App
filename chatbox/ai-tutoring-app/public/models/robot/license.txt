@@ -1,0 +1,11 @@
+Model Information:
+* title:	360 Sphere Robot no glass
+* source:	https://sketchfab.com/3d-models/360-sphere-robot-no-glass-c5b68cef43064a0c8840fadf9e6e5ded
+* author:	mikeramos (https://sketchfab.com/mikeramos)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "360 Sphere Robot no glass" (https://sketchfab.com/3d-models/360-sphere-robot-no-glass-c5b68cef43064a0c8840fadf9e6e5ded) by mikeramos (https://sketchfab.com/mikeramos) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

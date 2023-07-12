@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "../pages/styles/Home.module.css";
-
 import Link from "next/link";
 import Image from "next/image";
-import Nav from "../../components/nav";
+import Nav from "../../components/NavBar/nav";
+import Landing from "../../components/Landing/Landing";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +18,8 @@ export default function Home() {
 			</Head>
 			<main className={styles.main}>
 				<Nav />
-				<h1 className={styles.title}>Home</h1>
 			</main>
+			<Landing></Landing>
 		</>
 	);
 }

@@ -1,4 +1,4 @@
-import styles from "../src/pages/styles/nav.module.css";
+import styles from "../../src/pages/styles/nav.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
