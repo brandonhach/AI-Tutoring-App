@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Nav from "../../components/NavBar/nav";
 import Landing from "../../components/Landing/Landing";
+import About from "../../components/About/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
 				<Nav />
 			</main>
 			<Landing></Landing>
+			<About></About>
 		</>
 	);
 }

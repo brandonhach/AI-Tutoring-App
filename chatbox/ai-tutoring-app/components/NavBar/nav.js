@@ -12,6 +12,12 @@ export default function Nav() {
 				<li className={styles.ul}>
 					<Link href="/chat">Chat</Link>
 				</li>
+				<li className={styles.ul}>
+					<Link href="/">Import</Link>
+				</li>
+				<li className={styles.ul}>
+					<Link href="/">Register</Link>
+				</li>
 			</ul>
 		</div>
 	);
