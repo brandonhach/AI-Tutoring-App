@@ -1,0 +1,34 @@
+.container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 10vh;
+	min-height: 100px;
+	background-color: #22232b;
+	flex-direction: row;
+}
+
+.ul {
+	display: flex;
+	justify-content: flex-start;
+	gap: 2rem;
+}
+
+.link {
+	text-decoration: none;
+	color: #f0f1ec;
+}
+
+.right {
+	margin-left: auto;
+	padding-right: 40px;
+}
+
+.contact_us_btn {
+	height: 40px;
+	font-size: 15px;
+}
+
+.contact_us_btn:hover {
+	transform: scale(1.05);
+}

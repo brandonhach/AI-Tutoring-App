@@ -8,7 +8,7 @@ const Landing = () => {
 		<>
 			<div className={styles.container}>
 				<div className={styles.container_left}>
-					<h1>A personalized tutor, just for you.</h1>
+					<h1 className={styles.header}>A personalized tutor, just for you.</h1>
 					<p className={styles.description}>
 						SmartTutor dynamically adapts the learning material to match your skill
 						level. Whether you are a beginner or an advanced learner, SmartTutor
@@ -18,7 +18,6 @@ const Landing = () => {
 					<button className={styles.get_started_btn}>Get Started Now!</button>
 				</div>
 				<div className={styles.container_right}>
-					<h1>SmartTutor.ai</h1>
 					<Canvas style={{ height: "500px", width: "500px" }}>
 						<ambientLight />
 						<SpinningCube></SpinningCube>

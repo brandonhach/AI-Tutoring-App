@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
-import Nav from "../../components/NavBar/nav";
+import NavBar from "../../components/NavBar/NavBar";
 import { useState } from "react";
 import useChat from "./api/ChatBot";
 
@@ -14,7 +14,7 @@ export default function ChatPage() {
 					<title>Chat with a personalized AI Tutor</title>
 					<meta name="viewport" content="width=device-width, initial-scale=1" />
 				</Head>
-				<Nav />
+				<NavBar></NavBar>
 				<h1>Welcome to the AI Tutor App!</h1>
 				<h3>developed by Brandon and Sean</h3>
 				<p>
